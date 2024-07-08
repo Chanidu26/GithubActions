@@ -1,9 +1,10 @@
-def hello():
-    print("hi")
+def hello(name):
+    print("hi ",name)
 
 
 def bye():
     print("bye")
+    
 
-
-hello()
+name = input("Enter your name: ")
+hello(name)
